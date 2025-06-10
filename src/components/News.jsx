@@ -32,8 +32,8 @@ const News = () => {
   };
 
   useEffect(() => {
-    getData();
-  }, []);
+  getData();
+}, [getData]);
 
   const toggleDarkMode = () => setDarkMode((prev) => !prev);
 
